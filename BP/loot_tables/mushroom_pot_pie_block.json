@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "large_meals:mushroom_pot_pie_block_item"
+        }
+      ]
+    }
+  ]
+}

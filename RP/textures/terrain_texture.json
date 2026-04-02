@@ -1,0 +1,31 @@
+{
+  "texture_data": {
+    "mushroom_pot_pie_inner": {
+      "textures": "textures/blocks/mushroom_pot_pie_inner"
+    },
+    "mushroom_pot_pie_top": {
+      "textures": "textures/blocks/mushroom_pot_pie_top"
+    },
+    "omurice": {
+      "textures": "textures/blocks/omurice"
+    },
+    "pot_pie_side": {
+      "textures": "textures/blocks/pot_pie_side"
+    },
+    "roasted_mutton_rack_block": {
+      "textures": "textures/blocks/roasted_mutton_rack_block"
+    },
+    "tray_mushroom_pot_pie_leftover": {
+      "textures": "textures/blocks/tray_mushroom_pot_pie_leftover"
+    },
+    "tray_omurice_leftover": {
+      "textures": "textures/blocks/tray_omurice_leftover"
+    },
+    "tray_roasted_mutton_rack": {
+      "textures": "textures/blocks/tray_roasted_mutton_rack"
+    },
+    "tray_roasted_mutton_rack_leftover": {
+      "textures": "textures/blocks/tray_roasted_mutton_rack_leftover"
+    }
+  }
+}

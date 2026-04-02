@@ -1,0 +1,60 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "chicken_curry": {
+      "textures": "textures/items/chicken_curry"
+    },
+    "cod_deluxe": {
+      "textures": "textures/items/cod_deluxe"
+    },
+    "cooked_mutton_rack": {
+      "textures": "textures/items/cooked_mutton_rack"
+    },
+    "hearty_lunch": {
+      "textures": "textures/items/hearty_lunch"
+    },
+    "mushroom_pot_pie": {
+      "textures": "textures/items/mushroom_pot_pie"
+    },
+    "mushroom_pot_pie_block": {
+      "textures": "textures/items/mushroom_pot_pie_block"
+    },
+    "omurice": {
+      "textures": "textures/items/omurice"
+    },
+    "omurice_block": {
+      "textures": "textures/items/omurice_block"
+    },
+    "pasta_with_mushroom_sauce": {
+      "textures": "textures/items/pasta_with_mushroom_sauce"
+    },
+    "potato_soup": {
+      "textures": "textures/items/potato_soup"
+    },
+    "pufferfish_broth": {
+      "textures": "textures/items/pufferfish_broth"
+    },
+    "raw_mutton_rack": {
+      "textures": "textures/items/raw_mutton_rack"
+    },
+    "red_soup": {
+      "textures": "textures/items/red_soup"
+    },
+    "rice_pudding": {
+      "textures": "textures/items/rice_pudding"
+    },
+    "roasted_mutton_rack": {
+      "textures": "textures/items/roasted_mutton_rack"
+    },
+    "roasted_mutton_rack_block": {
+      "textures": "textures/items/roasted_mutton_rack_block"
+    },
+    "sweet_berry_custard": {
+      "textures": "textures/items/sweet_berry_custard"
+    },
+    "tomato_egg_soup": {
+      "textures": "textures/items/tomato_egg_soup"
+    }
+  }
+}

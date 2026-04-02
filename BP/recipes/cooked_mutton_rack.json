@@ -1,0 +1,16 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "large_meals:cooked_mutton_rack"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "large_meals:raw_mutton_rack",
+        "output": "large_meals:cooked_mutton_rack"
+    }
+}

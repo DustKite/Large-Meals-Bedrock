@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "cb8ba77d-ac1e-4ec9-a491-1ae49647a291",
+    "version": [
+      5,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3c335565-65e1-4da2-a384-aaccd98f2aee",
+      "version": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "Script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2da0554f-c888-4447-8400-0788dac36d45",
+      "version": [
+        5,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite/Elaikes"
+    ],
+    "license": "GPLv3",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "abf98121-fe16-42ea-842c-53eb5037806d",
+      "version": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

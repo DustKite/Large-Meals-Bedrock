@@ -1,0 +1,180 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.mushroom_pot_pie_block_stage2",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 1.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "bone",
+                    "pivot": [
+                        8,
+                        0,
+                        -8
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -7,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                14,
+                                2,
+                                14
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        1,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        14,
+                                        2
+                                    ],
+                                    "material_instance": "tray_side"
+                                },
+                                "east": {
+                                    "uv": [
+                                        1,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        14,
+                                        2
+                                    ],
+                                    "material_instance": "tray_side"
+                                },
+                                "south": {
+                                    "uv": [
+                                        1,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        14,
+                                        2
+                                    ],
+                                    "material_instance": "tray_side"
+                                },
+                                "west": {
+                                    "uv": [
+                                        1,
+                                        11
+                                    ],
+                                    "uv_size": [
+                                        14,
+                                        2
+                                    ],
+                                    "material_instance": "tray_side"
+                                },
+                                "up": {
+                                    "uv": [
+                                        1,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        14,
+                                        14
+                                    ],
+                                    "material_instance": "4"
+                                },
+                                "down": {
+                                    "uv": [
+                                        1,
+                                        1
+                                    ],
+                                    "uv_size": [
+                                        14,
+                                        14
+                                    ],
+                                    "material_instance": "tray_side"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                2,
+                                0
+                            ],
+                            "size": [
+                                12,
+                                4,
+                                6
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "1"
+                                },
+                                "east": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "2"
+                                },
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        4
+                                    ],
+                                    "material_instance": "2"
+                                },
+                                "west": {
+                                    "uv": [
+                                        8,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "2"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        6
+                                    ],
+                                    "material_instance": "3"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

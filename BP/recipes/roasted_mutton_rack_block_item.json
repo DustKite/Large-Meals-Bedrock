@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "large_meals:roasted_mutton_rack_block_item"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "RRR",
+            "CMC",
+            "PPB"
+        ],
+        "key": {
+            "R": {
+                "item": "farmersdelight:cooked_rice"
+            },
+            "C": {
+                "item": "minecraft:carrot"
+            },
+            "M": {
+                "item": "large_meals:cooked_mutton_rack"
+            },
+            "P": {
+                "item": "minecraft:baked_potato"
+            },
+            "B": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "result": [
+            {
+                "item": "large_meals:roasted_mutton_rack_block_item",
+                "count": 1
+            },
+            {
+                "item": "minecraft:bowl",
+                "count": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "large_meals:mushroom_pot_pie_block": {
+        "sound": "cloth"
+    },
+    "large_meals:omurice_block": {
+        "sound": "cloth"
+    },
+    "large_meals:roasted_mutton_rack_block": {
+        "sound": "cloth"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}
