@@ -3,7 +3,7 @@
     "minecraft:geometry": [
         {
             "description": {
-                "identifier": "geometry.mushroom_pot_pie_block_stage3",
+                "identifier": "geometry.mushroom_pot_pie_block_stage1",
                 "texture_width": 16,
                 "texture_height": 16,
                 "visible_bounds_width": 2,
@@ -44,7 +44,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "east": {
                                     "uv": [
@@ -55,7 +55,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "south": {
                                     "uv": [
@@ -66,7 +66,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "west": {
                                     "uv": [
@@ -77,29 +77,98 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "up": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "4"
+                                    "material_instance": "tray_mushroom_pot_pie_leftover"
                                 },
                                 "down": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                2,
+                                -6
+                            ],
+                            "size": [
+                                6,
+                                4,
+                                6
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "pot_pie_side"
+                                },
+                                "east": {
+                                    "uv": [
+                                        8,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "pot_pie_side"
+                                },
+                                "south": {
+                                    "uv": [
+                                        2,
+                                        10
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        6
+                                    ],
+                                    "material_instance": "mushroom_pot_pie_inner"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        6,
+                                        4
+                                    ],
+                                    "material_instance": "mushroom_pot_pie_inner"
+                                },
+                                "up": {
+                                    "uv": [
+                                        14,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        -6,
+                                        -6
+                                    ],
+                                    "material_instance": "mushroom_pot_pie_top"
                                 }
                             }
                         },
@@ -110,21 +179,21 @@
                                 0
                             ],
                             "size": [
-                                6,
+                                12,
                                 4,
                                 6
                             ],
                             "uv": {
                                 "north": {
                                     "uv": [
-                                        8,
+                                        2,
                                         12
                                     ],
                                     "uv_size": [
-                                        6,
+                                        12,
                                         4
                                     ],
-                                    "material_instance": "1"
+                                    "material_instance": "mushroom_pot_pie_inner"
                                 },
                                 "east": {
                                     "uv": [
@@ -135,7 +204,7 @@
                                         6,
                                         4
                                     ],
-                                    "material_instance": "1"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "south": {
                                     "uv": [
@@ -143,10 +212,10 @@
                                         12
                                     ],
                                     "uv_size": [
-                                        6,
+                                        12,
                                         4
                                     ],
-                                    "material_instance": "2"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "west": {
                                     "uv": [
@@ -157,18 +226,18 @@
                                         6,
                                         4
                                     ],
-                                    "material_instance": "2"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "up": {
                                     "uv": [
-                                        2,
-                                        8
+                                        14,
+                                        14
                                     ],
                                     "uv_size": [
-                                        6,
-                                        6
+                                        -12,
+                                        -6
                                     ],
-                                    "material_instance": "3"
+                                    "material_instance": "mushroom_pot_pie_top"
                                 }
                             }
                         }

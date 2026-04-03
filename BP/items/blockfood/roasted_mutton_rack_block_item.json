@@ -8,7 +8,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "roasted_mutton_rack_block"
+                    "default": "roasted_mutton_rack_block_item"
                 }
             }
         },

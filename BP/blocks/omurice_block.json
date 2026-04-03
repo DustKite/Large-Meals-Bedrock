@@ -1,0 +1,192 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "large_meals:omurice_block",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "farmersdelight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.omurice_block_stage0",
+                    "minecraft:loot": "loot_tables/large_meals/dish/omurice_block.json"
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.omurice_block_stage1"
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.omurice_block_stage2"
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.omurice_block_stage3"
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.omurice_block_leftover",
+                    "minecraft:loot": "loot_tables/farmersdelight/food_block/shepherds_pie_block_over.json",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            14.0,
+                            2.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            14.0,
+                            2.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.0
+            },
+            "minecraft:geometry": "geometry.omurice_block_stage0",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "tray_bottom"
+                },
+                "tray_bottom": {
+                    "texture": "tray_bottom"
+                },
+                "tray_top": {
+                    "texture": "tray_top"
+                },
+                "omurice": {
+                    "texture": "omurice"
+                },
+                "tray_omurice_leftover": {
+                    "texture": "tray_omurice_leftover"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.0,
+                    0.0,
+                    -7.0
+                ],
+                "size": [
+                    14.0,
+                    10.0,
+                    14.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.0,
+                    0.0,
+                    -7.0
+                ],
+                "size": [
+                    14.0,
+                    10.0,
+                    14.0
+                ]
+            },
+            "farmersdelight:dish": {
+                "has_leftovers": true,
+                "servings": 4,
+                "contents": "large_meals:omurice",
+                "utensil": "minecraft:bowl"
+            },
+            "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:farmersdelight:blockfood": {}
+        }
+    }
+}

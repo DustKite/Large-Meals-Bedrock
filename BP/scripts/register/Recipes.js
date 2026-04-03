@@ -10,13 +10,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 import { CuttingBoardRecipes } from "../datas/CuttingRecipes";
-import { CookingPotRecipes } from "../datas/CookingpotRecipes";
+import { CookingPotRecipes } from "../datas/CookingPotRecipes";
 import { CookRecipes } from "../datas/CookRecipes";
 export class RecipeRegister {
     register(args) {
         system.runTimeout(() => {
-            for (let i = 0; i < cookingPotRecipes.length; i++) {
-                const recipe = JSON.stringify(cookingPotRecipes[i]);
+            for (let i = 0; i < CookingPotRecipes.length; i++) {
+                const recipe = JSON.stringify(CookingPotRecipes[i]);
                 world.getDimension("overworld").runCommand(`scriptevent farmersdelight:cooking_pot_recipe ${recipe}`);
             }
             for (let i = 0; i < CuttingBoardRecipes.length; i++) {

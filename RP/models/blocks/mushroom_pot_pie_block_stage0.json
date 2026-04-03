@@ -44,7 +44,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "east": {
                                     "uv": [
@@ -55,7 +55,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "south": {
                                     "uv": [
@@ -66,7 +66,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "west": {
                                     "uv": [
@@ -77,29 +77,29 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "up": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
                                     "material_instance": "tray_top"
                                 },
                                 "down": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 }
                             }
                         },
@@ -124,7 +124,7 @@
                                         12,
                                         4
                                     ],
-                                    "material_instance": "2"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "east": {
                                     "uv": [
@@ -135,7 +135,7 @@
                                         12,
                                         4
                                     ],
-                                    "material_instance": "2"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "south": {
                                     "uv": [
@@ -146,7 +146,7 @@
                                         12,
                                         4
                                     ],
-                                    "material_instance": "2"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "west": {
                                     "uv": [
@@ -157,18 +157,18 @@
                                         12,
                                         4
                                     ],
-                                    "material_instance": "2"
+                                    "material_instance": "pot_pie_side"
                                 },
                                 "up": {
                                     "uv": [
-                                        2,
-                                        2
+                                        14,
+                                        14
                                     ],
                                     "uv_size": [
-                                        12,
-                                        12
+                                        -12,
+                                        -12
                                     ],
-                                    "material_instance": "3"
+                                    "material_instance": "mushroom_pot_pie_top"
                                 }
                             }
                         }

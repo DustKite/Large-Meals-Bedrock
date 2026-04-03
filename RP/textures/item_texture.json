@@ -17,14 +17,14 @@
     "mushroom_pot_pie": {
       "textures": "textures/items/mushroom_pot_pie"
     },
-    "mushroom_pot_pie_block": {
-      "textures": "textures/items/mushroom_pot_pie_block"
+    "mushroom_pot_pie_block_item": {
+      "textures": "textures/items/mushroom_pot_pie_block_item"
     },
     "omurice": {
       "textures": "textures/items/omurice"
     },
-    "omurice_block": {
-      "textures": "textures/items/omurice_block"
+    "omurice_block_item": {
+      "textures": "textures/items/omurice_block_item"
     },
     "pasta_with_mushroom_sauce": {
       "textures": "textures/items/pasta_with_mushroom_sauce"
@@ -47,8 +47,8 @@
     "roasted_mutton_rack": {
       "textures": "textures/items/roasted_mutton_rack"
     },
-    "roasted_mutton_rack_block": {
-      "textures": "textures/items/roasted_mutton_rack_block"
+    "roasted_mutton_rack_block_item": {
+      "textures": "textures/items/roasted_mutton_rack_block_item"
     },
     "sweet_berry_custard": {
       "textures": "textures/items/sweet_berry_custard"

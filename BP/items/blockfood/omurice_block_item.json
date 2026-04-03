@@ -8,7 +8,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "omurice_block"
+                    "default": "omurice_block_item"
                 }
             }
         },

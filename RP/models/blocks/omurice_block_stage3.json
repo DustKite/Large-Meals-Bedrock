@@ -1,11 +1,11 @@
 {
-    "format_version": "1.12.0",
+    "format_version": "1.21.0",
     "minecraft:geometry": [
         {
             "description": {
                 "identifier": "geometry.omurice_block_stage3",
-                "texture_width": 32,
-                "texture_height": 32,
+                "texture_width": 16,
+                "texture_height": 16,
                 "visible_bounds_width": 2,
                 "visible_bounds_height": 2.5,
                 "visible_bounds_offset": [
@@ -81,23 +81,23 @@
                                 },
                                 "up": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
                                     "material_instance": "tray_omurice_leftover"
                                 },
                                 "down": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
                                     "material_instance": "tray_bottom"
                                 }
@@ -115,7 +115,7 @@
                     "cubes": [
                         {
                             "origin": [
-                                -4,
+                                0,
                                 2,
                                 0
                             ],
@@ -171,20 +171,31 @@
                                 },
                                 "up": {
                                     "uv": [
-                                        0,
-                                        4
+                                        4,
+                                        8
                                     ],
                                     "uv_size": [
-                                        4,
-                                        4
+                                        -4,
+                                        -4
                                     ],
                                     "material_instance": "omurice"
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "side",
+                    "parent": "omurice",
+                    "pivot": [
+                        8,
+                        0,
+                        -8
+                    ],
+                    "cubes": [
                         {
                             "origin": [
-                                -5,
+                                0,
                                 2,
                                 4
                             ],
@@ -194,6 +205,17 @@
                                 1
                             ],
                             "uv": {
+                                "east": {
+                                    "uv": [
+                                        4,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "omurice"
+                                },
                                 "south": {
                                     "uv": [
                                         0,
@@ -205,14 +227,25 @@
                                     ],
                                     "material_instance": "omurice"
                                 },
-                                "up": {
+                                "west": {
                                     "uv": [
                                         0,
                                         8
                                     ],
                                     "uv_size": [
-                                        5,
+                                        1,
                                         1
+                                    ],
+                                    "material_instance": "omurice"
+                                },
+                                "up": {
+                                    "uv": [
+                                        5,
+                                        9
+                                    ],
+                                    "uv_size": [
+                                        -5,
+                                        -1
                                     ],
                                     "material_instance": "omurice"
                                 }
@@ -220,7 +253,7 @@
                         },
                         {
                             "origin": [
-                                -5,
+                                4,
                                 2,
                                 0
                             ],
@@ -230,6 +263,17 @@
                                 4
                             ],
                             "uv": {
+                                "north": {
+                                    "uv": [
+                                        5,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        1,
+                                        1
+                                    ],
+                                    "material_instance": "omurice"
+                                },
                                 "west": {
                                     "uv": [
                                         5,
@@ -243,13 +287,14 @@
                                 },
                                 "up": {
                                     "uv": [
-                                        5,
-                                        8
+                                        9,
+                                        9
                                     ],
                                     "uv_size": [
-                                        1,
-                                        4
+                                        -4,
+                                        -1
                                     ],
+                                    "uv_rotation": 90,
                                     "material_instance": "omurice"
                                 }
                             }

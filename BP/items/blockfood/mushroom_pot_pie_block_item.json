@@ -8,7 +8,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "mushroom_pot_pie_block"
+                    "default": "mushroom_pot_pie_block_item"
                 }
             }
         },

@@ -1,0 +1,846 @@
+{
+    "large_meals_recipe_part_0": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "pufferfish_broth@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/fish_pufferfish_raw",
+                                "$cell1": "textures/items/potato",
+                                "$cell2": "textures/items/beetroot",
+                                "$cell3": "textures/items/onion",
+                                "$cell4": "textures/items/milk_bottle",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/pufferfish_broth"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "potato_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/potato",
+                                "$cell1": "textures/items/potato",
+                                "$cell2": "textures/items/onion",
+                                "$cell3": "textures/items/milk_bottle",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/potato_soup"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "large_meals_recipe_grid_0": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.large_meals_recipe_part_0"
+    },
+    "large_meals_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "red_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/tomato",
+                                "$cell1": "textures/items/beetroot",
+                                "$cell2": "textures/items/onion",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/red_soup"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "tomato_egg_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/tomato",
+                                "$cell1": "textures/items/egg",
+                                "$cell2": "textures/items/onion",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/tomato_egg_soup"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "large_meals_recipe_grid_1": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.large_meals_recipe_part_1"
+    },
+    "large_meals_recipe_part_2": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "cod_deluxe@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/fish_raw",
+                                "$cell1": "textures/items/beetroot",
+                                "$cell2": "textures/items/rice",
+                                "$cell3": "textures/items/tomato",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/cod_deluxe"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "hearty_lunch@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bacon"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bacon"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/rice"
+                                        }
+                                    },
+                                    {
+                                        "cell3@cooking_pot.is_cabbage": {
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell4": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "cell5": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/onion"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/hearty_lunch"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "large_meals_recipe_grid_2": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.large_meals_recipe_part_2"
+    },
+    "large_meals_recipe_part_3": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "chicken_curry@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_raw_chicken": {
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/onion"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/milk_bottle"
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/tomato_sauce"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/chicken_curry"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pasta_with_mushroom_sauce@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/blocks/mushroom_brown",
+                                "$cell1": "textures/blocks/mushroom_brown",
+                                "$cell2": "textures/items/milk_bottle",
+                                "$cell3": "textures/items/onion",
+                                "$cell4": "textures/items/raw_pasta",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/pasta_with_mushroom_sauce"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "large_meals_recipe_grid_3": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.large_meals_recipe_part_3"
+    },
+    "large_meals_recipe_part_4": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "omurice_block_item@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/rice"
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_raw_chicken": {
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/egg"
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/milk_bottle"
+                                        }
+                                    },
+                                    {
+                                        "cell4": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "cell5@cooking_pot.is_cabbage": {
+                                            "offset": [
+                                                -6.25,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/omurice_block_item"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "mushroom_pot_pie_block_item@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/blocks/mushroom_brown"
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_raw_chicken": {
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "cell3@cooking_pot.is_cabbage": {
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell4": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/milk_bottle"
+                                        }
+                                    },
+                                    {
+                                        "cell5": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/pie_crust"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/mushroom_pot_pie_block_item"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "large_meals_recipe_grid_4": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.large_meals_recipe_part_4"
+    },
+    "large_meals_recipe_part_5": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "sweet_berry_custard@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/sweet_berries",
+                                "$cell1": "textures/items/milk_bottle",
+                                "$cell2": "textures/items/egg",
+                                "$cell3": "textures/items/sugar",
+                                "$result": "textures/items/sweet_berry_custard"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "rice_pudding@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/rice",
+                                "$cell1": "textures/items/milk_bottle",
+                                "$cell2": "textures/items/sugar",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/rice_pudding"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "large_meals_recipe_grid_5": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.large_meals_recipe_part_5"
+    },
+    "recipe_grid_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "large_meals_recipe_grid_0@cooking_pot.large_meals_recipe_grid_0": {}
+                    },
+                    {
+                        "large_meals_recipe_grid_1@cooking_pot.large_meals_recipe_grid_1": {}
+                    },
+                    {
+                        "large_meals_recipe_grid_2@cooking_pot.large_meals_recipe_grid_2": {}
+                    },
+                    {
+                        "large_meals_recipe_grid_3@cooking_pot.large_meals_recipe_grid_3": {}
+                    },
+                    {
+                        "large_meals_recipe_grid_4@cooking_pot.large_meals_recipe_grid_4": {}
+                    },
+                    {
+                        "large_meals_recipe_grid_5@cooking_pot.large_meals_recipe_grid_5": {}
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,26 +1,26 @@
 pack.name=大餐
 pack.description=适配1.26.0+, 本模组根据原Java版模组大餐在遵循MIT协议的情况下进行移植.
 
-item.largemeals.raw_mutton_rack=生羊架
-item.largemeals.cooked_mutton_rack=熟羊架
-item.largemeals.pufferfish_broth=河豚清汤
-item.largemeals.potato_soup=土豆浓汤
-item.largemeals.red_soup=红菜汤
-item.largemeals.tomato_egg_soup=番茄鸡蛋汤
-item.largemeals.cod_deluxe=鳕鱼豪宴
-item.largemeals.hearty_lunch=丰腴午宴
-item.largemeals.chicken_curry=鸡肉咖喱
-item.largemeals.pasta_with_mushroom_sauce=蘑菇酱意面
-item.largemeals.sweet_berry_custard=甜浆果蛋奶沙司
-item.largemeals.rice_pudding=米布丁
+item.large_meals:raw_mutton_rack=生羊架
+item.large_meals:cooked_mutton_rack=熟羊架
+item.large_meals:pufferfish_broth=河豚清汤
+item.large_meals:potato_soup=土豆浓汤
+item.large_meals:red_soup=红菜汤
+item.large_meals:tomato_egg_soup=番茄鸡蛋汤
+item.large_meals:cod_deluxe=鳕鱼豪宴
+item.large_meals:hearty_lunch=丰腴午宴
+item.large_meals:chicken_curry=鸡肉咖喱
+item.large_meals:pasta_with_mushroom_sauce=蘑菇酱意面
+item.large_meals:sweet_berry_custard=甜浆果蛋奶沙司
+item.large_meals:rice_pudding=米布丁
 
-item.largemeals.omurice_block_item=蛋包饭
-item.largemeals.mushroom_pot_pie_block_item=蘑菇鸡肉锅派
-item.largemeals.roasted_mutton_rack_block_item=炙烤羊架
-item.largemeals.omurice=碗装蛋包饭
-item.largemeals.mushroom_pot_pie=盘装蘑菇鸡肉锅派
-item.largemeals.roasted_mutton_rack=盘装炙烤羊架
+item.large_meals:omurice_block_item=蛋包饭
+item.large_meals:mushroom_pot_pie_block_item=蘑菇鸡肉锅派
+item.large_meals:roasted_mutton_rack_block_item=炙烤羊架
+item.large_meals:omurice=碗装蛋包饭
+item.large_meals:mushroom_pot_pie=盘装蘑菇鸡肉锅派
+item.large_meals:roasted_mutton_rack=盘装炙烤羊架
 
-tile.largemeals.mushroom_pot_pie_block.name=蘑菇鸡肉锅派
-tile.largemeals.roasted_mutton_rack_block.name=炙烤羊架
-tile.largemeals.omurice_block.name=蛋包饭
+tile.large_meals:mushroom_pot_pie_block.name=蘑菇鸡肉锅派
+tile.large_meals:roasted_mutton_rack_block.name=炙烤羊架
+tile.large_meals:omurice_block.name=蛋包饭

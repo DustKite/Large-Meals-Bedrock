@@ -1,11 +1,11 @@
 {
-    "format_version": "1.12.0",
+    "format_version": "1.21.0",
     "minecraft:geometry": [
         {
             "description": {
-                "identifier": "geometry.roasted_mutton_rack_block_stage2",
-                "texture_width": 64,
-                "texture_height": 64,
+                "identifier": "geometry.roasted_mutton_rack_block_stage1",
+                "texture_width": 16,
+                "texture_height": 16,
                 "visible_bounds_width": 2,
                 "visible_bounds_height": 2.5,
                 "visible_bounds_offset": [
@@ -44,7 +44,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "east": {
                                     "uv": [
@@ -55,7 +55,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "south": {
                                     "uv": [
@@ -66,7 +66,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "west": {
                                     "uv": [
@@ -77,29 +77,29 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "up": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "5"
+                                    "material_instance": "tray_top"
                                 },
                                 "down": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 }
                             }
                         },
@@ -107,12 +107,12 @@
                             "origin": [
                                 -4,
                                 2,
-                                0
+                                -3
                             ],
                             "size": [
                                 8,
                                 8,
-                                6
+                                9
                             ],
                             "uv": {
                                 "north": {
@@ -124,18 +124,18 @@
                                         8,
                                         8
                                     ],
-                                    "material_instance": "4"
+                                    "material_instance": "roasted_mutton_rack_block"
                                 },
                                 "east": {
                                     "uv": [
-                                        6,
-                                        8
+                                        12,
+                                        16
                                     ],
                                     "uv_size": [
-                                        6,
-                                        8
+                                        -9,
+                                        -8
                                     ],
-                                    "material_instance": "4"
+                                    "material_instance": "roasted_mutton_rack_block"
                                 },
                                 "south": {
                                     "uv": [
@@ -146,29 +146,30 @@
                                         8,
                                         8
                                     ],
-                                    "material_instance": "4"
+                                    "material_instance": "roasted_mutton_rack_block"
                                 },
                                 "west": {
                                     "uv": [
-                                        6,
+                                        3,
                                         8
                                     ],
                                     "uv_size": [
-                                        6,
+                                        9,
                                         8
                                     ],
-                                    "material_instance": "4"
+                                    "material_instance": "roasted_mutton_rack_block"
                                 },
                                 "up": {
                                     "uv": [
-                                        6,
+                                        3,
                                         8
                                     ],
                                     "uv_size": [
-                                        6,
+                                        9,
                                         8
                                     ],
-                                    "material_instance": "4"
+                                    "uv_rotation": 270,
+                                    "material_instance": "roasted_mutton_rack_block"
                                 }
                             }
                         },
@@ -193,16 +194,52 @@
                                         2,
                                         4
                                     ],
+                                    "uv_rotation": 180,
+                                    "material_instance": "bone"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        2
+                                    ],
+                                    "uv_rotation": 90,
+                                    "material_instance": "bone"
+                                },
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -4
+                                    ],
+                                    "material_instance": "bone"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        2
+                                    ],
+                                    "uv_rotation": 270,
                                     "material_instance": "bone"
                                 },
                                 "up": {
                                     "uv": [
-                                        0,
-                                        0
-                                    ],
-                                    "uv_size": [
                                         2,
                                         2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
                                     ],
                                     "material_instance": "bone"
                                 }
@@ -229,16 +266,124 @@
                                         2,
                                         4
                                     ],
+                                    "uv_rotation": 180,
+                                    "material_instance": "bone"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
+                                        2
+                                    ],
+                                    "uv_rotation": 90,
+                                    "material_instance": "bone"
+                                },
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -4
+                                    ],
+                                    "material_instance": "bone"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        2
+                                    ],
+                                    "uv_rotation": 270,
                                     "material_instance": "bone"
                                 },
                                 "up": {
                                     "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
+                                    ],
+                                    "material_instance": "bone"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -1,
+                                10,
+                                -2.5
+                            ],
+                            "size": [
+                                2,
+                                4,
+                                2
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
                                         0,
-                                        0
+                                        2
                                     ],
                                     "uv_size": [
                                         2,
+                                        4
+                                    ],
+                                    "uv_rotation": 180,
+                                    "material_instance": "bone"
+                                },
+                                "east": {
+                                    "uv": [
+                                        6,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -4,
                                         2
+                                    ],
+                                    "uv_rotation": 90,
+                                    "material_instance": "bone"
+                                },
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        6
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -4
+                                    ],
+                                    "material_instance": "bone"
+                                },
+                                "west": {
+                                    "uv": [
+                                        2,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        2
+                                    ],
+                                    "uv_rotation": 270,
+                                    "material_instance": "bone"
+                                },
+                                "up": {
+                                    "uv": [
+                                        2,
+                                        2
+                                    ],
+                                    "uv_size": [
+                                        -2,
+                                        -2
                                     ],
                                     "material_instance": "bone"
                                 }

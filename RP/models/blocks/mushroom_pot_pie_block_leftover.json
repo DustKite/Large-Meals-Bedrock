@@ -4,8 +4,8 @@
         {
             "description": {
                 "identifier": "geometry.mushroom_pot_pie_block_leftover",
-                "texture_width": 32,
-                "texture_height": 32,
+                "texture_width": 16,
+                "texture_height": 16,
                 "visible_bounds_width": 2,
                 "visible_bounds_height": 1.5,
                 "visible_bounds_offset": [
@@ -44,7 +44,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "east": {
                                     "uv": [
@@ -55,7 +55,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "south": {
                                     "uv": [
@@ -66,7 +66,7 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "west": {
                                     "uv": [
@@ -77,29 +77,29 @@
                                         14,
                                         2
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 },
                                 "up": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "1"
+                                    "material_instance": "tray_mushroom_pot_pie_leftover"
                                 },
                                 "down": {
                                     "uv": [
-                                        1,
-                                        1
+                                        15,
+                                        15
                                     ],
                                     "uv_size": [
-                                        14,
-                                        14
+                                        -14,
+                                        -14
                                     ],
-                                    "material_instance": "tray_side"
+                                    "material_instance": "tray_bottom"
                                 }
                             }
                         }
