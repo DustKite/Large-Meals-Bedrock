@@ -1,0 +1,26 @@
+pack.name=Large Meals
+pack.description=For1.26.0+, This addon is ported based on the original Java Edition mod Large Meals and this work is licensed under the MIT License.
+
+item.large_meals:raw_mutton_rack=Sườn Cừu Sống
+item.large_meals:cooked_mutton_rack=Sườn Cừu Chín
+item.large_meals:pufferfish_broth=Canh Cá Nóc
+item.large_meals:potato_soup=Súp Khoai Tây
+item.large_meals:red_soup=Súp Đỏ
+item.large_meals:tomato_egg_soup=Canh Trứng Cà Chua
+item.large_meals:cod_deluxe=Cá Tuyết Sang Trọng
+item.large_meals:hearty_lunch=Bữa Trưa Dinh Dưỡng
+item.large_meals:chicken_curry=Cà-ri Gà
+item.large_meals:pasta_with_mushroom_sauce=Mì Ống Sốt Nấm
+item.large_meals:sweet_berry_custard=Bánh Trứng Quả Mọng Ngọt
+item.large_meals:rice_pudding=Bánh Pudding Cơm
+
+item.large_meals:omurice_block_item=Trứng Cuộn Cơm
+item.large_meals:mushroom_pot_pie_block_item=Bánh Súp Nấm
+item.large_meals:roasted_mutton_rack_block_item=Sườn Cừu Quay
+item.large_meals:omurice=Bát Trứng Cuộn Cơm
+item.large_meals:mushroom_pot_pie=Đĩa Bánh Súp Nấm
+item.large_meals:roasted_mutton_rack=Đĩa Sườn Cừu Quay
+
+tile.large_meals:mushroom_pot_pie_block.name=Bánh Súp Nấm
+tile.large_meals:roasted_mutton_rack_block.name=Sườn Cừu Quay
+tile.large_meals:omurice_block.name=Trứng Cuộn Cơm
