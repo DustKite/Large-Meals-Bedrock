@@ -1,0 +1,26 @@
+pack.name=Large Meals
+pack.description=For1.21.90+, This addon is ported based on the original Java Edition mod Large Meals and this work is licensed under the MIT License.
+
+item.large_meals:raw_mutton_rack=生マトンのラック
+item.large_meals:cooked_mutton_rack=調理済みマトンのラック
+item.large_meals:pufferfish_broth=フグのブロス
+item.large_meals:potato_soup=ポテトスープ
+item.large_meals:red_soup=レッドスープ
+item.large_meals:tomato_egg_soup=トマト玉子スープ
+item.large_meals:cod_deluxe=タラのデラックス
+item.large_meals:hearty_lunch=ハーティランチ
+item.large_meals:chicken_curry=チキンカレー
+item.large_meals:pasta_with_mushroom_sauce=マッシュルームソースのパスタ
+item.large_meals:sweet_berry_custard=スイートベリーカスタード
+item.large_meals:rice_pudding=ライスプディング
+
+item.large_meals:omurice_block_item=オムライス
+item.large_meals:mushroom_pot_pie_block_item=マッシュルームポットパイ
+item.large_meals:roasted_mutton_rack_block_item=ローストマトンのラック
+item.large_meals:omurice=オムライスのボウル
+item.large_meals:mushroom_pot_pie=マッシュルームポットパイのプレート
+item.large_meals:roasted_mutton_rack=ローストマトンのラックのプレート
+
+tile.large_meals:mushroom_pot_pie_block.name=マッシュルームポットパイ
+tile.large_meals:roasted_mutton_rack_block.name=ローストマトンのラック
+tile.large_meals:omurice_block.name=オムライス

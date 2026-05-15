@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "large_meals:roasted_mutton_rack_block",
@@ -54,7 +54,7 @@
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 4",
                 "components": {
                     "minecraft:geometry": "geometry.roasted_mutton_rack_block_leftover",
-                    "minecraft:loot": "loot_tables/farmersdelight/food_block/shepherds_pie_block_over.json",
+                    "minecraft:loot": "loot_tables/farmersdelight/food_block/roast_chicken_block_over.json",
                     "minecraft:collision_box": {
                         "origin": [
                             -7.0,
@@ -179,17 +179,9 @@
                     14.0
                 ]
             },
-            "farmersdelight:dish": {
-                "has_leftovers": true,
-                "servings": 4,
-                "contents": "large_meals:roasted_mutton_rack",
-                "utensil": "minecraft:bowl"
-            },
             "minecraft:loot": "loot_tables/farmersdelight/empty.json",
-            "minecraft:connection_rule": {
-                "accepts_connections_from": "none"
-            },
-            "tag:farmersdelight:blockfood": {}
+            "tag:farmersdelight:blockfood": {},
+            "large_meals:blockfood": {}
         }
     }
 }

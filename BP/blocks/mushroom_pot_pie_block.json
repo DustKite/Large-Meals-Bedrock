@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "large_meals:mushroom_pot_pie_block",
@@ -182,17 +182,9 @@
                     14.0
                 ]
             },
-            "farmersdelight:dish": {
-                "has_leftovers": true,
-                "servings": 4,
-                "contents": "large_meals:mushroom_pot_pie",
-                "utensil": "minecraft:bowl"
-            },
             "minecraft:loot": "loot_tables/farmersdelight/empty.json",
-            "minecraft:connection_rule": {
-                "accepts_connections_from": "none"
-            },
-            "tag:farmersdelight:blockfood": {}
+            "tag:farmersdelight:blockfood": {},
+            "large_meals:blockfood": {}
         }
     }
 }

@@ -5,14 +5,14 @@
     "name": "pack.name",
     "uuid": "cb8ba77d-ac1e-4ec9-a491-1ae49647a291",
     "version": [
-      5,
+      4,
       0,
-      1
+      0
     ],
     "min_engine_version": [
       1,
-      26,
-      0
+      21,
+      90
     ]
   },
   "modules": [
@@ -20,9 +20,9 @@
       "type": "data",
       "uuid": "3c335565-65e1-4da2-a384-aaccd98f2aee",
       "version": [
-        5,
+        4,
         0,
-        1
+        0
       ]
     },
     {
@@ -31,9 +31,9 @@
       "language": "javascript",
       "uuid": "2da0554f-c888-4447-8400-0788dac36d45",
       "version": [
-        5,
+        4,
         0,
-        1
+        0
       ],
       "entry": "scripts/main.js"
     }
@@ -49,9 +49,9 @@
     {
       "uuid": "abf98121-fe16-42ea-842c-53eb5037806d",
       "version": [
-        5,
+        4,
         0,
-        1
+        0
       ]
     },
     {
